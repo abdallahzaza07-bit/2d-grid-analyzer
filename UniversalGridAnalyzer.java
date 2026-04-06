@@ -148,7 +148,8 @@ public class UniversalGridAnalyzer {
             grid[grid.length - 1 - i][0] = t;
         }
 
-        System.out.println("Done");
+        System.out.println("After transformation:");
+displayGrid();
     }
 
     public static void subgrid() {
