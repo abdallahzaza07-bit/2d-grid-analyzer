@@ -96,8 +96,8 @@ public class UniversalGridAnalyzer {
             }
         }
 
-        System.out.println("Max: " + max + " at " + maxR + "," + maxC);
-        System.out.println("Min: " + min + " at " + minR + "," + minC);
+        System.out.println("Maximum value: " + max + " at " + maxR + "," + maxC);
+        System.out.println("Minimum value: " + min + " at " + minR + "," + minC);
     }
 
     public static void frequency(Scanner input) {
