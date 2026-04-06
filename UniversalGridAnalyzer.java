@@ -20,7 +20,7 @@ public class UniversalGridAnalyzer {
         int choice;
 
         do {
-            System.out.println("\nMenu");
+            System.out.println("\n--- Grid Menu ---");
             System.out.println("1 Display Grid");
             System.out.println("2 Row and Column Sums");
             System.out.println("3 Max and Min");
