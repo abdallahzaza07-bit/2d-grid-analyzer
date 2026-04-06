@@ -169,13 +169,13 @@ displayGrid();
 
     public static void boundaryDiagonal() {
         int n = grid.length;
-
+        System.out.println("Main diagonal:");
         for (int i = 0; i < n; i++) {
             System.out.print(grid[i][i] + " ");
         }
 
         System.out.println();
-
+        System.out.println("Secondary diagonal:");
         for (int i = 0; i < n; i++) {
             System.out.print(grid[i][n - 1 - i] + " ");
         }
